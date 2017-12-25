@@ -14,8 +14,8 @@ declare let Ng1AppModule: any;
 
 platformBrowserDynamic().bootstrapModule(AppModule)
     .then(ref => {
-        console.log('Both Angular Version were Initialized');
-        //
-        // (<any>ref.instance).upgrade.bootstrap(document.body, [Ng1AppModule.name]);
+        console.log('Both Angular 5 and AngularJs 1.x versions were Initialized');
+
+        console.log('*** Hybrid Angular Application is Running ***');
     })
     .catch(err => console.log(err));

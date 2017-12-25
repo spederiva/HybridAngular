@@ -10,7 +10,8 @@
       "assets": [
         "assets",
         "favicon.ico",
-        { "glob": "**/*", "input": "../../angularjs", "output": "angularjs/" }
+        { "glob": "**/*", "input": "../../angularjs/build", "output": "angularjs/" },
+        { "glob": "**/*", "input": "../../angularjs/node_modules", "output": "angularjs/node_modules" }
       ],
       "index": "index.html",
       "main": "main.ts",

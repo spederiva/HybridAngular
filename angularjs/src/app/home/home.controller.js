@@ -1,21 +1,21 @@
-(function() {
-  'use strict';
+(function () {
+    'use strict';
 
-  angular
-  .module('application.home')
-  .controller('HomeController', HomeController);
+    angular
+        .module('application.home')
+        .controller('HomeController', HomeController);
 
-  function HomeController($translate) {
-    var home = this;
+    function HomeController($translate) {
+        var home = this;
 
-    home.title = 'Home';
+        home.title = 'Home';
 
-    home.toggleLang = function() {
-      if ($translate.use() === 'en_EN') {
-        $translate.use('de_DE');
-      } else {
-        $translate.use('en_EN');
-      }
-    };
-  }
+        home.toggleLang = function () {
+            if ($translate.use() === 'en_EN') {
+                $translate.use('de_DE');
+            } else {
+                $translate.use('en_EN');
+            }
+        };
+    }
 })();
