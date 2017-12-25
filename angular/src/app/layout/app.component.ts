@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id,
     selector: 'app-root',
-    // templateUrl: './app.component.html',
-    template: `
-        <h1>Hello Angular 5</h1>
-    `,
+    templateUrl: './app.component.html',
+    // template: `
+    //     <h1>Hello Angular 5</h1>
+    // `,
     styleUrls: ['./app.component.css']
 })
 
